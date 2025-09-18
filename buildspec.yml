@@ -1,0 +1,11 @@
+version: 0.2
+phases:
+  install:
+    commands:
+      - echo "Installing... Nothing needed for static site"
+  build:
+    commands:
+      - echo "Building... No build required"
+artifacts:
+  files:
+    - '**/*'
